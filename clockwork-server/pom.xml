@@ -72,6 +72,9 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.j143.clockwork.server.ClockworkServerApplication</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
