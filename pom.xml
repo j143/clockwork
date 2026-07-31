@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.2</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.j143</groupId>
+    <artifactId>clockwork</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>clockwork</name>
+
+    <modules>
+        <module>clockwork-api</module>
+        <module>clockwork-core</module>
+        <module>clockwork-store</module>
+        <module>clockwork-server</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+</project>
